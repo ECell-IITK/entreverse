@@ -1017,6 +1017,32 @@ textarea {
   margin-top: -45%;
 }
 
+#competitions img {
+  border-radius: 100%; 
+  height: 80px; 
+  width: 80px;
+  color: white; 
+  margin-right: 20px;
+}
+
+#contact img {
+  border-radius: 100%; 
+  height: 80px; 
+  width: 80px;
+  color: white; 
+  background-color: white;
+  margin-right: 20px;
+}
+
+#services img {
+  border-radius: 100%; 
+  height: 80px; 
+  width: 80px;
+  color: white; 
+  background-color: white;
+  margin-right: 20px;
+}
+
 #competitions .competitions-content img, #contact .competitions-content img {
   border-radius: 100%; 
   height: 80px; 
