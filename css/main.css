@@ -1197,7 +1197,7 @@ input::-moz-focus-inner {
 	line-height: 1.833;
 }
 .section-intro.with-bottom-sep {
-	padding-bottom: 3rem;
+	/* padding-bottom: 3rem; */
 	position: relative;
 }
 .section-intro.with-bottom-sep::after {
@@ -1900,7 +1900,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 }
 @media only screen and (max-width: 400px) {
 	#home {
-		max-height: 300px;
+		max-height: 100%;
 	}
 
 	.home-content-tablecell .row {
@@ -2044,7 +2044,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	background-size: cover;
 	min-height: 800px;
 	position: relative;
-	padding: 15rem 0 15rem;
+	padding: 7rem 0 7rem;
 	color: rgba(255, 255, 255, 0.3);
 }
 #services .overlay {
@@ -2688,7 +2688,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	padding: 12rem 0 12rem;
+	padding: 6rem 0 6rem;
 	position: relative;
 }
 #competitions .overlay {
@@ -2705,7 +2705,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	color: #73dfdf;
 	font-weight: 3.5rem;
 }
-#competitions .section-intro h3 {
+#competitions .section-intro h3  {
 	color: rgba(242, 242, 242, 0.5);
 }
 #competitions .section-intro h4 {
@@ -2749,7 +2749,7 @@ html[data-useragent*="MSIE 10.0"] .scrolldown,
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	padding: 12rem 0 12rem;
+	padding: 7rem 0 7rem;
 	position: relative;
 }
 #contact .overlay {
@@ -3325,7 +3325,7 @@ footer h4.h05::after {
 /* footer main
  * --------------------------------- */
 .footer-main {
-	padding-top: 9.6rem;
+	padding-top: 4rem;
 	padding-bottom: 3rem;
 }
 .footer-main ul {
