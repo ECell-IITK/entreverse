@@ -996,8 +996,8 @@ textarea {
 
 /* Animation */
 .animate-this{
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-             /* blinkTextCursor 500ms steps(44) infinite normal; */
+  /* animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 300ms steps(44) infinite normal; */
 }
 
 #home .home-text h1 {
@@ -1031,6 +1031,9 @@ textarea {
 @media (max-width: 600px) {
   #home {
     height: 100%;
+  }
+  .margin {
+    margin-right: 0 !important;
   }
   #competitions .competitions-content img { 
     height: 60px; 
