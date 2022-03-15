@@ -945,6 +945,11 @@ textarea {
   src: url(../fonts/Fast\ Hand\ 400.otf);
 }
 
+@font-face {
+  font-family: Mtt Milano;
+  src: url(../fonts/MTT\ Milano\ Medium/MTT\ Milano\ Medium.ttf);
+}
+
 /* #home .logo::before {
   display: block;
   content: "";
@@ -982,9 +987,9 @@ textarea {
 
 #home .home-text h3 {
   color: white;
-  font-size: 40px; 
+  font-size: 35px; 
   font-weight: 400;
-  font-family: 'MTT-Milano-Medium', sans-serif;
+  font-family: 'Mtt Milano', sans-serif;
 }
 
 #home .home-text h4 {
