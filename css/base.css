@@ -995,9 +995,14 @@ textarea {
 #home .home-text h4 {
   color: white;
   font-size: 25px; 
-  font-weight: 400;
-  font-family: 'MTT-Milano-Medium', sans-serif;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
 }
+
+
+
+
 
 /* Animation */
 .animate-this{
@@ -1121,3 +1126,64 @@ textarea {
     padding: 5rem 0 5rem !important;
   }
 }
+
+/* Remove old h1 styles */
+#home .home-text h1 {
+    display: none;
+}
+
+/* New image styling */
+#home .main-title-img {
+    max-width: 100%;
+    height: auto;
+    width: 600px; /* Base size for desktop */
+    display: block;
+    margin: 0 auto;
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+    #home .main-title-img {
+        width: 450px;
+    }
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    #home .main-title-img {
+        width: 350px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    #home .main-title-img {
+        width: 220px;
+    }
+}
+
+.tagline {
+    display: inline-block;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeSlide 2s ease forwards, pulse 4s ease-in-out infinite 2s;
+}
+
+/* Fade + Slide in */
+@keyframes fadeSlide {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Gentle pulsing for attention */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+
